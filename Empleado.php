@@ -9,6 +9,7 @@ private $salary;
           $this->name=$n;
           $this->salary=$s;
 
+
     
     }
 
@@ -21,7 +22,7 @@ private $salary;
         if($this->salary>3000){
             print("paga impuestos");
         }
-        else{print("no paga impuestos");}
+        else{print("no paga impuestos en la mesa");}
     }
 }
 
